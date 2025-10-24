@@ -1,0 +1,8 @@
+forge create \
+    --private-key <PRIVATE_KEY> \
+    --rpc-url https://optimism-mainnet.infura.io/v3/8e3fcf337e6d4023a8c45fa96f384ccd \
+    --verify \
+    --chain optimism \
+    --etherscan-api-key 634WMXSJSWC7DEW1WD613Z7RKN71NG5N7E \
+    src/ERC20.sol:ERC20 \
+    --constructor-args "Demetrio" "DEM" 
